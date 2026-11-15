@@ -1,0 +1,8 @@
+@"
+.env
+TOKEN.txt
+*.zip
+*.exe
+ffmpeg-8.0.1-essentials_build/
+__pycache__/
+"@ | Out-File -Encoding utf8 .gitignore
